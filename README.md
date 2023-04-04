@@ -1,2 +1,2 @@
-# irrigation-system
-Smart Irrigation System Django Rest
+# Thesis
+Contains all the dev files for my Thesis Project
