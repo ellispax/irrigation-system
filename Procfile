@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT backend.wsgi:application
+web: python manage.py migrate && python manage.py collectstatic && gunicorn locallibrary.wsgi
