@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure--()b51_vz0b0$cuijlckrktmw56#dj(g!z0rcyc8zcmcj6wxfw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['irrigation-sys.herokuapp.com/']
+ALLOWED_HOSTS = ['irrigation-sys.herokuapp.com']
 
 
 # Application definition
